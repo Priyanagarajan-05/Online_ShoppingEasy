@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.header-container {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text for header */
+    padding: 20px; /* Padding for the header */
+    text-align: center; /* Center align header text */
+}
+
+.brand-title {
+    font-family: 'Pacifico', cursive; /* Cursive font for a stylish look */
+    font-size: 36px; /* Large font size for emphasis */
+    font-weight: 700; /* Bold font weight */
+    color: #FFD700; /* Gold color for the brand title */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-links {
+    margin-top: 15px; /* Space between brand title and navigation */
+}
+
+.nav-links a {
+    color: white; /* White text for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Space between links */
+    font-weight: 500; /* Medium weight for links */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Underline on hover for interactivity */
+}
+
+.container {
+    padding: 10px; /* Reduce padding for smaller container */
+    max-width: 1200px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container */
+}
+
+#pagination {
+    margin-top: 20px; /* Space above pagination buttons */
+    text-align: center; /* Center align pagination buttons */
+}
+
+#prevPageBtn,
+#nextPageBtn {
+    padding: 10px 15px; /* Padding for buttons */
+    margin: 5px; /* Space between buttons */
+    background-color: #4CAF50; /* Same green as header */
+    color: white; /* White text for buttons */
+    border: none; /* No border for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for buttons */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+#prevPageBtn:hover,
+#nextPageBtn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+main {
+    padding: 100px 20px; /* Add padding to avoid overlap with the fixed header */
+}
+
+.welcome-section {
+    text-align: center;
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.search-section {
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.product-item button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4a8c2c;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Footer background color */
+    color: white;
+    position: relative; /* Allows footer to be at the bottom */
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
